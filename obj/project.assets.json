@@ -595,19 +595,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GabrielOliveira\\.nuget\\packages\\": {}
+    "C:\\Users\\JoãoNascimento\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GabrielOliveira\\Desktop\\sistema_biblioteca\\sistemaProjetoPI.csproj",
+      "projectUniqueName": "C:\\Users\\JoãoNascimento\\OneDrive - Senac MS Edu\\Desktop\\sistemaProjetoPI\\sistemaProjetoPI.csproj",
       "projectName": "sistemaProjetoPI",
-      "projectPath": "C:\\Users\\GabrielOliveira\\Desktop\\sistema_biblioteca\\sistemaProjetoPI.csproj",
-      "packagesPath": "C:\\Users\\GabrielOliveira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GabrielOliveira\\Desktop\\sistema_biblioteca\\obj\\",
+      "projectPath": "C:\\Users\\JoãoNascimento\\OneDrive - Senac MS Edu\\Desktop\\sistemaProjetoPI\\sistemaProjetoPI.csproj",
+      "packagesPath": "C:\\Users\\JoãoNascimento\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JoãoNascimento\\OneDrive - Senac MS Edu\\Desktop\\sistemaProjetoPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\GabrielOliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JoãoNascimento\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
