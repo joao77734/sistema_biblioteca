@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JoãoNascimento\\OneDrive - Senac MS Edu\\Desktop\\sistemaProjetoPI\\sistemaProjetoPI.csproj": {}
+    "C:\\Users\\GabrielOliveira\\Desktop\\sistema_biblioteca\\sistemaProjetoPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JoãoNascimento\\OneDrive - Senac MS Edu\\Desktop\\sistemaProjetoPI\\sistemaProjetoPI.csproj": {
+    "C:\\Users\\GabrielOliveira\\Desktop\\sistema_biblioteca\\sistemaProjetoPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoãoNascimento\\OneDrive - Senac MS Edu\\Desktop\\sistemaProjetoPI\\sistemaProjetoPI.csproj",
+        "projectUniqueName": "C:\\Users\\GabrielOliveira\\Desktop\\sistema_biblioteca\\sistemaProjetoPI.csproj",
         "projectName": "sistemaProjetoPI",
-        "projectPath": "C:\\Users\\JoãoNascimento\\OneDrive - Senac MS Edu\\Desktop\\sistemaProjetoPI\\sistemaProjetoPI.csproj",
-        "packagesPath": "C:\\Users\\JoãoNascimento\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoãoNascimento\\OneDrive - Senac MS Edu\\Desktop\\sistemaProjetoPI\\obj\\",
+        "projectPath": "C:\\Users\\GabrielOliveira\\Desktop\\sistema_biblioteca\\sistemaProjetoPI.csproj",
+        "packagesPath": "C:\\Users\\GabrielOliveira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GabrielOliveira\\Desktop\\sistema_biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\JoãoNascimento\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GabrielOliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,6 +45,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[26.10.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
