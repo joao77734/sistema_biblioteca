@@ -9,3 +9,16 @@ CREATE TABLE avaliacao(
     foreign key (id_pesquisa) references pesquisa(id_pesquisa),
     foreign key (id_avaliador) references usuario(id_avaliador)
 );
+
+CREATE TABLE acoes(
+    id_acao int auto_increment primary key,
+    titulo varchar(200) not null,
+    descricao text not null,
+    data_submissao datetime not null,
+    data_atualizacao datetime null,
+    status varchar(20) not null,
+    id_usuario int not null,
+    id_ano_tipo_acao int not null,
+    foreign key (id_usuario) references usuario(id_usuario),
+    foreign key (id_ano_tipo_acao) references ano_tipo_acoes(id_ano_tipo_acao)
+);
