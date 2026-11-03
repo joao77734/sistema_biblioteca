@@ -3,15 +3,15 @@ CREATE DATABASE IF NOT EXISTS sistema_embrapa CHARACTER SET utf8mb4;
 
 USE sistema_embrapa;
 
-CREATE TABLE tipo_acao (
-    id_tipo_acao INT AUTO_INCREMENT PRIMARY KEY,
-    nome_acao VARCHAR(120) NOT NULL,
-    descricao TEXT,
-    id_setor INT,
+CREATE TABLE tipo_acao(
+    id_tipo_acao int auto_increment primary key,
+    nome_acao varchar(120) not null,
+    descricao text,
+    id_setor int,
 
-    FOREIGN KEY (id_setor)
-        REFERENCES setor(id_setor)
+    foreign (id_setor) references setor(id_setor)
 );
+
 CREATE TABLE avaliacao(
     id_avaliacao int auto_increment primary key,
     id_pesquisa int not null,
