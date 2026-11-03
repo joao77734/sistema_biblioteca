@@ -600,11 +600,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GabrielOliveira\\Desktop\\sistema_biblioteca\\sistemaProjetoPI.csproj",
+      "projectUniqueName": "C:\\Users\\GabrielOliveira\\Desktop\\Ajuda chat\\SistemaEmbrapaPI\\sistemaProjetoPI.csproj",
       "projectName": "sistemaProjetoPI",
-      "projectPath": "C:\\Users\\GabrielOliveira\\Desktop\\sistema_biblioteca\\sistemaProjetoPI.csproj",
+      "projectPath": "C:\\Users\\GabrielOliveira\\Desktop\\Ajuda chat\\SistemaEmbrapaPI\\sistemaProjetoPI.csproj",
       "packagesPath": "C:\\Users\\GabrielOliveira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GabrielOliveira\\Desktop\\sistema_biblioteca\\obj\\",
+      "outputPath": "C:\\Users\\GabrielOliveira\\Desktop\\Ajuda chat\\SistemaEmbrapaPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\GabrielOliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
