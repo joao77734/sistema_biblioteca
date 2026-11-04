@@ -247,7 +247,6 @@ namespace sistemaProjetoPI.Models
             }
         }
 
-                // VALIDADOR: Atualiza o status da Ação e registra a Avaliação correspondente
         public bool ValidadorJulgarAcao(int idAcao, string resultado, string justificativa, string operadorMatricula)
         {
             using var conn = _conexao.Criar();
@@ -282,7 +281,6 @@ namespace sistemaProjetoPI.Models
             }
         }
 
-        // COMITÊ: Consulta os logs de auditoria cronologicamente
         public void ComiteConsultarLogs()
         {
             using var conn = _conexao.Criar();
