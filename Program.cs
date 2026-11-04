@@ -25,16 +25,15 @@ static bool Login(UsuarioRepositorio repo)
         Console.Clear();
         Console.WriteLine("=== LOGIN ===");
         string email = Ler("Email: ");
-        string senha = Ler("Senha: ");
 
-        var usuario = repo.Autenticar(email, senha);
+        var usuario = repo.Autenticar(email);
         if (usuario != null)
         {
             Console.WriteLine($"Bem vindo, {usuario.Nome} !");
             Pausar();
             return true;
         }
-        Console.WriteLine($"Email ou senha inválidos ({tentativa}/3)");
+        Console.WriteLine($"Email inválido ou não cadastrado ({tentativa}/3)");
         Pausar();
     }
     Console.WriteLine($"Número máximo de tentativas atingido");
@@ -75,7 +74,6 @@ static void Cadastrar(UsuarioRepositorio repo)
         Matricula = Ler("Matrícula (Única): "),
         Nome = Ler("Nome: "),
         Email = Ler("Email Corporativo: "),
-        Senha = Ler("Senha: "),
         Status = "Ativo"
     };
     try
