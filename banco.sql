@@ -36,3 +36,9 @@ CREATE TABLE acoes(
     foreign key (id_usuario) references usuario(id_usuario),
     foreign key (id_ano_tipo_acao) references ano_tipo_acoes(id_ano_tipo_acao)
 );
+
+CREATE TABLE setor (
+    id_setor INT AUTO_INCREMENT PRIMARY KEY,
+    nome_setor VARCHAR(120) NOT NULL,
+    descricao VARCHAR(255)
+);
